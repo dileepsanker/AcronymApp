@@ -45,6 +45,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meanings:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ff-IQ-s9B">
+                                <rect key="frame" x="34" y="140" width="126" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="126" id="29n-xy-geg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -56,6 +65,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="s5G-2g-qRR" secondAttribute="bottom" constant="20" id="RUZ-Fa-fYs"/>
                             <constraint firstItem="T1m-qY-z6m" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="43" id="U7m-2x-iKm"/>
                             <constraint firstItem="s5G-2g-qRR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="UHU-a0-Hbv"/>
+                            <constraint firstItem="s5G-2g-qRR" firstAttribute="top" secondItem="8Ff-IQ-s9B" secondAttribute="bottom" constant="2" id="ewl-0C-XnP"/>
+                            <constraint firstItem="8Ff-IQ-s9B" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="18" id="pPd-Y5-mk7"/>
+                            <constraint firstItem="8Ff-IQ-s9B" firstAttribute="top" secondItem="DiK-Jy-D8f" secondAttribute="bottom" constant="3" id="qc7-Ir-hve"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WS2-ad-hv2"/>
