@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  ACAcronym
+
+  Created by Dileep on 18/02/15.
+  Copyright (c) 2015 Company. All rights reserved.
+*/
+
+"STR_APPLICATION_NAME"						= "ACAcronym";
+"STR_ENTR_ACR"                              = "Enter the acronym";
+"STR_NO_RESULTS"                            = "No Results found.";
+"STR_OK"                                    = "Ok";
